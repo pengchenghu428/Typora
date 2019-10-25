@@ -1,0 +1,48 @@
+# 初始化仓库两种方式
+
+## 1. 方式一
+
+有时候，我们先在github网站创建了仓库，本地也有相应的工程文件夹，需要将两者绑定成一个仓库，用此种初始化方式。
+
+### 1.1 GitHub端
+
+首先在github创建仓库
+
+![已存在的仓库](E:\WorkSpace\Typora\Command\Git\images\已存在的仓库.png)
+
+### 1.2 PC 端
+
+1. 打开 gitbash，并打开到对应的文件夹下
+
+![gitbash切换目录](E:\WorkSpace\Typora\Command\Git\images\gitbash切换目录.png)
+
+2. 初始化仓库 `git init`
+
+3. 添加远程连接  `git remote add origin http://xxxxxx.git`
+
+4. 同步远程仓库 `git pull origin master`
+
+   ![gitbash拉取远程仓库](E:\WorkSpace\Typora\Command\Git\images\gitbash拉取远程仓库.png)
+
+5. 添加本地文件 `git add -A`
+
+   ![gitbash添加文件](E:\WorkSpace\Typora\Command\Git\images\gitbash添加文件.png)
+
+6. 添加评论 `git add -m "新评论"`
+
+   ![gitbash添加评论](E:\WorkSpace\Typora\Command\Git\images\gitbash添加评论.png)
+
+7. 上传远程仓库 `git push origin master`
+
+   ![gitbash上传远程仓库](E:\WorkSpace\Typora\Command\Git\images\gitbash上传远程仓库.png)
+
+   
+
+## 2. 方式二
+
+
+
+
+
+
+
