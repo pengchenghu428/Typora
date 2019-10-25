@@ -1,3 +1,7 @@
+---
+typora-root-url: images
+---
+
 # 初始化仓库两种方式
 
 ## 1. 方式一
@@ -8,13 +12,13 @@
 
 首先在github创建仓库
 
-![已存在的仓库](E:\WorkSpace\Typora\Command\Git\images\已存在的仓库.png)
+已存在的仓库
 
 ### 1.2 PC 端
 
-1. 打开 gitbash，并打开到对应的文件夹下
+1. 打开 `gitbash`，并打开到对应的文件夹下
 
-![gitbash切换目录](E:\WorkSpace\Typora\Command\Git\images\gitbash切换目录.png)
+   ![已存在的仓库](/已存在的仓库.png)
 
 2. 初始化仓库 `git init`
 
@@ -22,19 +26,19 @@
 
 4. 同步远程仓库 `git pull origin master`
 
-   ![gitbash拉取远程仓库](E:\WorkSpace\Typora\Command\Git\images\gitbash拉取远程仓库.png)
+   ![gitbash拉取远程仓库](/gitbash拉取远程仓库.png)
 
 5. 添加本地文件 `git add -A`
 
-   ![gitbash添加文件](E:\WorkSpace\Typora\Command\Git\images\gitbash添加文件.png)
+   ![gitbash添加文件](/gitbash添加文件.png)
 
 6. 添加评论 `git add -m "新评论"`
 
-   ![gitbash添加评论](E:\WorkSpace\Typora\Command\Git\images\gitbash添加评论.png)
+   ![gitbash添加评论](/gitbash添加评论.png)
 
 7. 上传远程仓库 `git push origin master`
 
-   ![gitbash上传远程仓库](E:\WorkSpace\Typora\Command\Git\images\gitbash上传远程仓库.png)
+   ![gitbash上传远程仓库](/gitbash上传远程仓库.png)
 
    
 
