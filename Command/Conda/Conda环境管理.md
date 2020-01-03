@@ -10,7 +10,7 @@ typora-root-url: images
 
 ![创建环境](/创建环境.png)
 
-2. 删除环境 `conda remove -n env_name -all`
+2. 删除环境 `conda remove -n env_name --all`
 
 
 
